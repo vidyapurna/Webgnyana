@@ -1,0 +1,35 @@
+.container{
+  background-color: #0384fc;
+  color:white;
+  font-family: Arial, Sans-serif;
+  padding: 20px;
+  float:right;
+}
+.row{
+  border: none;
+  margin: 10px;
+  height: 25px;
+}
+.radio-style{
+  margin: 10px;
+
+}
+.text{
+  margin: 10px;
+  height: 200px;
+}
+.button{
+  background-color:#3440eb;
+  margin: 10px;
+  border: none;
+  color:white;
+  text-align:center;
+  padding:10px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.button:hover{
+  background-color: white;
+  color:#3440eb
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>FormFill</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>Personal Detials</h3>
+      <label for="firstname">First Name </label><br>
+      <input type="text" name="firstname" placeholder="John" autofocus required><br>
+      <label for="lastname">Last Name </label><br>
+      <input type="text" name="lastname" placeholder="Doe"><br>
+      <label for="email">Email </label><br>
+      <input type="email" name="email" placeholder="john.doe@gmail.com"><br>
+      <label for="password">Password</label><br>
+      <input type="password" name="password" ><br>
+      <label for="dob">Date of Birth </label><br>
+      <input type="date" name="dob" placeholder="DOB"><br>
+      <label for="gender">Gender </label>
+      <input type="radio" name="gender" value="male" checked>Male
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="other">Other<br>
+      <label for="mobile">Mobile Number </label><br>
+      <input type="tel" name="mobile" placeholder="+919898989898"><br>
+      <label for="landline">Land Line Number </label><br>
+      <input type="tel" name="landline" placeholder="+918098989898"><br>
+      <label for="address1">Address Line1 </label><br>
+      <input type="text" name="address1" placeholder="Address Line1"><br>
+      <label for="address2">Address Line2 </label><br>
+      <input type="text" name="address2" placeholder="Address Line2"><br>
+      <label for="state">State </label><br>
+      <input list="states" >
+      <datalist id="states">
+        <option value="Andaman and Nicobar Islands">
+        <option value="Andhra Pradesh">
+        <option value="Arunachal Pradesh">
+        <option value="Assam">
+        <option value="Bihar">
+        <option value="Chandigarh">
+        <option value="Chhattisgarh">
+        <option value="Dadra and Nagar Haveli">
+        <option value="Daman and Diu">
+        <option value="Delhi">
+        <option value="Goa">
+        <option value="Gujarat">
+        <option value="Haryana">
+        <option value="Himachal Pradesh">
+        <option value="Jammu and Kashmir">
+        <option value="Jharkhand">
+        <option value="Karnataka">
+        <option value="Kerala">
+        <option value="Lakshadweep">
+        <option value="Madhya Pradesh">
+        <option value="Maharashtra">
+        <option value="Manipur">
+        <option value="Meghalaya">
+        <option value="Mizoram">
+        <option value="Nagaland">
+        <option value="Orissa">
+        <option value="Pondicherry">
+        <option value="Punjab">
+        <option value="Rajasthan">
+        <option value="Sikkim">
+        <option value="Tamil Nadu">
+        <option value="Tripura">
+        <option value="Uttaranchal">
+        <option value="Uttar Pradesh">
+        <option value="West Bengal">
+      </datalist><br>
+      <input type="submit" value="Submit">
+    </div>
+  </body>
+
+</html>
