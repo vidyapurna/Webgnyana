@@ -1,35 +1,57 @@
+.flex-container{
+  display:flex;
+}
+.flex-container > div{
+  height: 600px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.about {
+  background-image: url(sendmsg.jpeg);
+  height: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.about h3, p{
+  color: white;
+  padding: 10px;
+}
+
 .container{
-  background-color: #0384fc;
+  background-color: #b04e2a;
   color:white;
   font-family: Arial, Sans-serif;
-  padding: 20px;
-  float:right;
+  padding: 15px;
 }
+
+.container input, textarea, h3{
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    padding: 7px;
+}
+
 .row{
-  border: none;
-  margin: 10px;
   height: 25px;
 }
-.radio-style{
-  margin: 10px;
 
-}
+
 .text{
-  margin: 10px;
   height: 200px;
 }
+
 .button{
-  background-color:#3440eb;
-  margin: 10px;
-  border: none;
+  background-color:#403431;
   color:white;
   text-align:center;
-  padding:10px;
   font-size: 20px;
   cursor: pointer;
 
 }
 .button:hover{
   background-color: white;
-  color:#3440eb
+  color:#403431;
 }
