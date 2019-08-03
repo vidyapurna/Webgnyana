@@ -56,7 +56,9 @@
     border-radius: 15px;
     padding: 7px;
 }
-
+.container textarea{
+  width:
+}
 .row{
   height: 25px;
 }
@@ -77,4 +79,18 @@
 .button:hover{
   background-color: white;
   color:#403431;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container{
+    display: flex;
+    flex-direction:column-reverse;
+
+  }
+  .flex-container > div{
+    width: 100%;
+  }
+  .container textarea{
+    width: 90%;
+  }
 }
